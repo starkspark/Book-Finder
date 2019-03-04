@@ -1,0 +1,110 @@
+body{
+    background: gainsboro;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.pageTitle{
+    margin-top: 3%;
+}
+
+.searchContainer{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.searchBox{
+    height: 40px;
+    width: 50%;
+    display: flex;
+    align-self: center;
+    margin-top: 3%;
+}
+
+.searchInput{
+    padding-left: 2%;
+    width: 80%;
+}
+
+.searchBox placeholder {
+    float: left;
+    margin-left: 5%;
+}
+
+.fa{
+    color: #000;
+    float: right;
+}
+
+.searchButton{
+    float: right;
+    color: #fff;
+    width: 20%;
+}
+
+.search{
+    height: 100%;
+    width: 100%;
+    background-color: forestgreen;
+    color: #fff;
+    font-size: 90%;
+    margin: 0 auto;
+}
+
+.bookResults{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.rows{
+    align-self: center;
+    width: 80%;
+}
+
+.book{
+    height: 210px;
+    width: 350px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSide{
+    width: 40%;
+    height: 110%;
+    margin-left: 3%;
+    align-self: center;
+}
+
+.bookImage{
+    height: inherit;
+    width: 100%;
+}
+
+.rightSide{
+    width: 50%;
+}
+
+.bookInfo{
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.title{
+    
+}
+
+.author{
+    
+}
+
+.publisher{
+    
+}

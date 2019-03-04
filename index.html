@@ -1,0 +1,50 @@
+<DOCTYPE!>
+    <html>
+
+    <head>
+    <title>Book Finder</title>
+    <h1 class="pageTitle">Book Finder</h1>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script type="text/javascript" src="https://www.google.com/books/jsapi.js"></script>
+    <script type="text/javascript">
+        google.books.load();
+
+        function initialize() {
+            var viewer = new google.books.DefaultViewer(document.getElementByClassName('bookImage'));
+            viewer.load('ISBN:0738531367');
+        }
+
+        google.books.setOnLoadCallback(initialize);
+    </script>
+</head>
+
+<body>
+    <div class="searchContainer">
+        <div class="searchBox">
+            <input type="text" class="searchInput" placeholder="Search by author or title..">
+            <i class="fas fa-times"></i>
+            <div class="searchButton">
+                <button class="search">Search</button>
+            </div>
+        </div>
+    </div>
+    <div class="bookResults">
+        <div class="rows">
+            <div class="book">
+                <div class="leftSide">
+                    <div class="bookImage"></div>
+                </div>
+                <div class="rightSide">
+                    <div class="bookInfo">
+                        <div class="title"></div>
+                        <div class="author"></div>
+                        <div class="publisher"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+    </html>
+</DOCTYPE!>
