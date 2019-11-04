@@ -1,0 +1,26 @@
+{
+  "name": "book-finder",
+  "version": "1.0.0",
+  "description": "An application that allows the use of Google Books API to search for books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starkspark/Book-Finder.git"
+  },
+  "author": "sierra swaby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starkspark/Book-Finder/issues"
+  },
+  "homepage": "https://github.com/starkspark/Book-Finder#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {}
+}
